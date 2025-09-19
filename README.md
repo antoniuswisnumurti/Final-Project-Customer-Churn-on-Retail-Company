@@ -42,7 +42,7 @@ The goal is to **predict customer churn** based on transaction history and behav
 7. **Define Churn** → using observation vs. label window (cut-off Nov 30, 2023, +90 days)  
 8. **Encoding & Scaling** → OneHotEncoder + scaling  
 9. **Handle Class Imbalance** → SMOTE  
-10. **Split Dataset** → Train, Validation, Test:contentReference[oaicite:1]{index=1}
+10. **Split Dataset** → Train, Test:contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -54,7 +54,7 @@ Four models were trained and compared:
 - XGBoost  
 
 **Best Model → XGBoost**  
-- Validation Recall: **0.99**  
+- Train Recall: **0.99**  
 - Test Recall: **0.99**  
 - Highest recall → ideal for churn prediction (focus on catching churners even if some false positives occur):contentReference[oaicite:2]{index=2}
 
